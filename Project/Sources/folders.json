@@ -1,4 +1,4 @@
-﻿{
+{
 	"Compiler": {},
 	"DatePicker": {
 		"groups": [
@@ -42,17 +42,17 @@
 	},
 	"DatePicker Shared": {
 		"methods": [
-			"DatePicker APPLY DEFAULT VALUES",
-			"DatePicker Display Dialog",
-			"DatePicker RESET DEFAULT VALUES",
-			"DatePicker SET DAYS OFF",
-			"DatePicker SET DEFAULT 1ST DAY",
-			"DatePicker SET DEFAULT DAYS OFF",
-			"DatePicker SET DEFAULT MAX DATE",
-			"DatePicker SET DEFAULT MIN DATE",
-			"DatePicker SET MAX DATE",
-			"DatePicker SET MIN DATE",
-			"DatePicker SET WEEK FIRST DAY"
+			"DP APPLY DEFAULT VALUES SF",
+			"DP Display Dialog SF",
+			"DP RESET DEFAULT VALUES SF",
+			"DP SET DAYS OFF SF",
+			"DP SET DEFAULT 1ST DAY SF",
+			"DP SET DEFAULT DAYS OFF SF",
+			"DP SET DEFAULT MAX DATE SF",
+			"DP SET DEFAULT MIN DATE SF",
+			"DP SET MAX DATE SF",
+			"DP SET MIN DATE SF",
+			"DP SET WEEK FIRST DAY SF"
 		]
 	},
 	"SearchPicker": {
@@ -83,8 +83,8 @@
 	},
 	"SearchPicker Shared": {
 		"methods": [
-			"SearchPicker SET ENTERABLE",
-			"SearchPicker SET HELP TEXT"
+			"SP SET ENTERABLE SF",
+			"SP SET HELP TEXT SF"
 		]
 	},
 	"TimePicker": {
@@ -100,6 +100,7 @@
 			"TimeDisplayLCD",
 			"TimeEntry",
 			"TimeEntry_AM",
+			"TimeEntry_wo_Second",
 			"TimePicker_Pop1",
 			"TimePicker_Pop1_AM",
 			"TimePicker_Pop2",
@@ -134,24 +135,24 @@
 	},
 	"TimePicker Shared": {
 		"methods": [
-			"TimePicker APPLY DEFAULT VALUES",
-			"TimePicker DISPLAY SECOND HAND",
-			"TimePicker LCD DISPLAY AMPM",
-			"TimePicker LCD DISPLAY SECONDS",
-			"TimePicker LCD SET COLOR",
-			"TimePicker LCD SET MODE",
-			"TimePicker RESET DEFAULT VALUES",
-			"TimePicker SET DEFAULT LABEL AM",
-			"TimePicker SET DEFAULT LABEL PM",
-			"TimePicker SET DEFAULT MAX TIME",
-			"TimePicker SET DEFAULT MIN TIME",
-			"TimePicker SET DEFAULT STEP",
-			"TimePicker SET DEFAULT TIME",
-			"TimePicker SET LABEL AM",
-			"TimePicker SET LABEL PM",
-			"TimePicker SET MAX TIME",
-			"TimePicker SET MIN TIME",
-			"TimePicker SET STEP"
+			"TP APPLY DEFAULT VALUES SF",
+			"TP DISPLAY SECOND HAND SF",
+			"TP LCD DISPLAY AMPM SF",
+			"TP LCD DISPLAY SECONDS SF",
+			"TP LCD SET COLOR SF",
+			"TP LCD SET MODE SF",
+			"TP RESET DEFAULT VALUES SF",
+			"TP SET DEFAULT LABEL AM SF",
+			"TP SET DEFAULT LABEL PM SF",
+			"TP SET DEFAULT MAX TIME SF",
+			"TP SET DEFAULT MIN TIME SF",
+			"TP SET DEFAULT STEP SF",
+			"TP SET DEFAULT TIME SF",
+			"TP SET LABEL AM SF",
+			"TP SET LABEL PM SF",
+			"TP SET MAX TIME SF",
+			"TP SET MIN TIME SF",
+			"TP SET STEP SF"
 		]
 	},
 	"Tools": {

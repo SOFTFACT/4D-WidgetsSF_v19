@@ -68,7 +68,7 @@ If (Type:C295($1)=Is time:K8:8)
 				
 		End case 
 		
-		TimePicker SET DEFAULT TIME($time)
+		TP SET DEFAULT TIME SF($time)
 		
 	End if 
 	
