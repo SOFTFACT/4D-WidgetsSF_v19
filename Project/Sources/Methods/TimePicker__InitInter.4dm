@@ -17,13 +17,13 @@ If (Not:C34(<>TimePicker_Inited))
 	C_TIME:C306(<>TimePicker_SelectedTime)
 	C_TIME:C306(<>TimePicker_DummyTime)
 	
-	  // Default value
+	// Default value
 	
 	C_TEXT:C284($AMLabel)
 	C_TEXT:C284($PMLabel)
 	
-	GET SYSTEM FORMAT:C994(System time AM label:K60:15;$AMLabel)
-	GET SYSTEM FORMAT:C994(System time PM label:K60:16;$PMLabel)
+	GET SYSTEM FORMAT:C994(System time AM label:K60:15; $AMLabel)
+	GET SYSTEM FORMAT:C994(System time PM label:K60:16; $PMLabel)
 	
 	If (True:C214)
 		<>TimePicker_LabelAM:=$AMLabel
@@ -34,11 +34,11 @@ If (Not:C34(<>TimePicker_Inited))
 		
 		<>TimePicker_SelectedTime:=?00:00:00?
 	Else 
-		TimePicker SET DEFAULT LABEL AM ($AMLabel)
-		TimePicker SET DEFAULT LABEL PM ($PMLabel)
-		TimePicker SET DEFAULT MIN TIME (?08:00:00?)
-		TimePicker SET DEFAULT MAX TIME (?20:00:00?)
-		TimePicker SET DEFAULT STEP (?00:15:00?)
+		TP SET DEFAULT LABEL AM SF($AMLabel)
+		TP SET DEFAULT LABEL PM SF($PMLabel)
+		TP SET DEFAULT MIN TIME SF(?08:00:00?)
+		TP SET DEFAULT MAX TIME SF(?20:00:00?)
+		TP SET DEFAULT STEP SF(?00:15:00?)
 		
 	End if 
 	

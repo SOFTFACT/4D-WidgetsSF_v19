@@ -13,12 +13,12 @@ If (Count parameters:C259=1)
 		
 		DatePicker__InitInter  //just in case a "DISPOSE had been called before
 		
-		DatePicker SET MIN DATE($Form; <>DatePicker_DateMin)
-		DatePicker SET MAX DATE($Form; <>DatePicker_DateMax)
-		DatePicker SET WEEK FIRST DAY($Form; <>DatePicker_FirstDayOfWeek)
-		DatePicker SET DAYS OFF($Form; 0; -><>_DatePicker_DaysOff0)
-		DatePicker SET DAYS OFF($Form; 1; -><>_DatePicker_DaysOff1)
-		DatePicker SET DAYS OFF($Form; 2; -><>_DatePicker_DaysOff2)
+		DP SET MIN DATE SF($Form; <>DatePicker_DateMin)
+		DP SET MAX DATE SF($Form; <>DatePicker_DateMax)
+		DP SET WEEK FIRST DAY SF($Form; <>DatePicker_FirstDayOfWeek)
+		DP SET DAYS OFF SF($Form; 0; -><>_DatePicker_DaysOff0)
+		DP SET DAYS OFF SF($Form; 1; -><>_DatePicker_DaysOff1)
+		DP SET DAYS OFF SF($Form; 2; -><>_DatePicker_DaysOff2)
 		
 		EXECUTE METHOD IN SUBFORM:C1085($Form; "DatePicker__RedrawCalendar")
 		

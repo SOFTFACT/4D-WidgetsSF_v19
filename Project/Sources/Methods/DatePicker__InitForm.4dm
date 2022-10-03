@@ -28,13 +28,13 @@ If (Not:C34(Is nil pointer:C315($PtrDefaultInited)))
 		// Affectation des valeurs par defaut dans le formulaire
 		$selectedDate:=DatePicker__SetSelectedDate(<>DatePicker_DefaultDate; "")
 		
-		DatePicker SET MIN DATE(""; <>DatePicker_DateMin)
-		DatePicker SET MAX DATE(""; <>DatePicker_DateMax)
-		DatePicker SET WEEK FIRST DAY(""; <>DatePicker_FirstDayOfWeek)
+		DP SET MIN DATE SF(""; <>DatePicker_DateMin)
+		DP SET MAX DATE SF(""; <>DatePicker_DateMax)
+		DP SET WEEK FIRST DAY SF(""; <>DatePicker_FirstDayOfWeek)
 		
-		DatePicker SET DAYS OFF(""; 0; -><>_DatePicker_DaysOff0)
-		DatePicker SET DAYS OFF(""; 1; -><>_DatePicker_DaysOff1)
-		DatePicker SET DAYS OFF(""; 2; -><>_DatePicker_DaysOff2)
+		DP SET DAYS OFF SF(""; 0; -><>_DatePicker_DaysOff0)
+		DP SET DAYS OFF SF(""; 1; -><>_DatePicker_DaysOff1)
+		DP SET DAYS OFF SF(""; 2; -><>_DatePicker_DaysOff2)
 		
 		DatePicker__CalculateFirstDay(<>DatePicker_DefaultDate; "")
 		

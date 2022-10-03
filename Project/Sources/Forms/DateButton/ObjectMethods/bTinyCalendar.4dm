@@ -13,7 +13,7 @@ $selectedDate:=DatePicker__SetSelectedDate($selectedDate)  //may modify the valu
 
 DatePicker__SetBlob
 <>DatePicker_GetBlob:=True:C214
-$selectedDate:=DatePicker Display Dialog(-1; -1; $selectedDate)  // $datePicker_Target->)  //ACI0097346
+$selectedDate:=DP Display Dialog SF(-1; -1; $selectedDate)  // $datePicker_Target->)  //ACI0097346
 
 
 If ($selectedDate#!00-00-00!)

@@ -7,7 +7,7 @@ C_POINTER:C301($DayPtr; $monthPtr; $YearPtr)
 DatePicker__SetBlob  // Met dans un BLOB les contraintes définies par l'utilisateur (etc.)
 <>DatePicker_GetBlob:=True:C214
 $selectedDate:=DatePicker__GetTarget
-$selectedDate:=DatePicker Display Dialog(-1; -1; $selectedDate)  //ACI0097346 //ACI0099621
+$selectedDate:=DP Display Dialog SF(-1; -1; $selectedDate)  //ACI0097346 //ACI0099621
 
 If ($selectedDate#!00-00-00!)
 	
