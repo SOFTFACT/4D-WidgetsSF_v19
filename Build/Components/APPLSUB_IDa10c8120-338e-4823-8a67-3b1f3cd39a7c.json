@@ -1,12 +1,12 @@
 {
   "logFormatVersion": 1,
-  "jobId": "00d90e74-4c81-4571-9774-43a9cc4efd39",
+  "jobId": "a10c8120-338e-4823-8a67-3b1f3cd39a7c",
   "status": "Accepted",
   "statusSummary": "Ready for distribution",
   "statusCode": 0,
   "archiveFilename": "4D-WidgetsSF.zip",
-  "uploadDate": "2022-10-03T11:39:35.328Z",
-  "sha256": "ecae8f5d62ea2076aebb077b461c37f3b44f4d17a8b66be1183a61ad7a85a5c7",
+  "uploadDate": "2022-10-03T13:47:16.121Z",
+  "sha256": "41f12cf67c3afe4a5606489ab251eb26e46b7e4664aa2b86b20c609d164df537",
   "ticketContents": [
     {
       "path": "4D-WidgetsSF.zip/4D_WidgetsSFv19.4dbase/Libraries/lib4d-arm64.dylib",
