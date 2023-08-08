@@ -1,3 +1,9 @@
+![platform](https://img.shields.io/static/v1?label=platform&message=mac-intel%20|%20mac-arm%20|%20win-64&color=blue)
+
+![version](https://img.shields.io/badge/4D%20version-20-3E8B93)
+
+![downloads](https://img.shields.io/badge/Notarized-√-green)
+
 # 4d-widgets
 
 4D widgets are functionalities provided as components that can be accessed from the Form editor and/or the preconfigured object library. These widgets are compound objects with predefined characteristics. They provide access to standard functions and are very simple to implement.
