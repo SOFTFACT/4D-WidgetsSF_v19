@@ -9,12 +9,12 @@
 #--------------------------------
 # Ignore data file
 #--------------------------------
-[dD][aA][tT][aA]/
-*.4DD
+#[dD][aA][tT][aA]/
+#*.4DD
 *.4DIndx
 *.4DIndy
 *.Match
-*.journal
+#*.journal
 
 #--------------------------------
 # Ignore derived data
@@ -29,8 +29,8 @@ Logs/
 #--------------------------------
 # Ignore settings & preferences
 #--------------------------------
-Preferences/
-!4DPop AppMaker.*
+#Preferences/
+#!4DPop AppMaker.*
 
 Settings/
 #!buildApp.4DSettings
@@ -48,6 +48,6 @@ Thumbs.db
 #--------------------------------
 # Added by user
 #--------------------------------
-Project/Trash
+#Project/Trash
 Resources/php.ini
 Libraries
