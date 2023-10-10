@@ -1,5 +1,5 @@
 
-| Branch | | 
+| Information | 
 |----------|
 | ![version](https://img.shields.io/badge/4D%20version-20R2-F070AA) | 
 | ![platform](https://img.shields.io/static/v1?label=platform&message=mac-intel%20|%20mac-arm%20|%20win-64&color=blue) | 
