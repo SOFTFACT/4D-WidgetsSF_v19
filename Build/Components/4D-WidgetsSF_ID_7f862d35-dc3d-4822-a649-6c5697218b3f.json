@@ -1,0 +1,19 @@
+﻿{
+  "logFormatVersion": 1,
+  "jobId": "7f862d35-dc3d-4822-a649-6c5697218b3f",
+  "status": "Accepted",
+  "statusSummary": "Ready for distribution",
+  "statusCode": 0,
+  "archiveFilename": "4D-WidgetsSF.zip",
+  "uploadDate": "2023-10-11T09:11:52.785Z",
+  "sha256": "6723f7b0a87dde54988eae6d2b2c87afbc0f920b60cb05f8f4da34e5fdbe9c60",
+  "ticketContents": [
+    {
+      "path": "4D-WidgetsSF.zip/4D_WidgetsSF.4dbase/Libraries/lib4d-arm64.dylib",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "21153cecab224b1e3387374aeb898c5358aec554",
+      "arch": "arm64"
+    }
+  ],
+  "issues": null
+}

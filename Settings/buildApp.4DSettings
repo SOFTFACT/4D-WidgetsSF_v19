@@ -29,7 +29,7 @@
       <CurrentVers>1</CurrentVers>
       <HardLink></HardLink>
     </CS>
-    <BuildApplicationName>4D_WidgetsSFv19</BuildApplicationName>
+    <BuildApplicationName>4D_WidgetsSF</BuildApplicationName>
     <BuildMacDestFolder>:Build:</BuildMacDestFolder>
     <ArrayExcludedPluginName>
       <ItemsCount>0</ItemsCount>
