@@ -48,7 +48,7 @@
         <ItemsCount>1</ItemsCount>
         <Item1>Macintosh HD:Users:appmaker:Library:Application Support:4D:Licenses:R-PNUD200UUC001APLZH08B48.license4D</Item1>
       </ArrayLicenseMac>
-    </Licenses>
+      <EvaluationMode>False</EvaluationMode></Licenses>
     <SignApplication>
       <MacSignature>True</MacSignature>
       <MacCertificate>ZF4Q8LEWNH</MacCertificate>
