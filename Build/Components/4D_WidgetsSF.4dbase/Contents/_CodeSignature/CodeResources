@@ -186,7 +186,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			FWex/3Sak5PKzEGU1pvRocECYtA=
+			Ru16u0kjk1CikSTnZjpTIcNcdhI=
 			</data>
 			<key>requirement</key>
 			<string>identifier "4D_WidgetsSF.4DZ" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = ZF4Q8LEWNH</string>
@@ -195,11 +195,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yVAPZNp5jZnwQ5H4nED55tOL74g=
+			tU50NMLoWzx0ZRXp5hjUqnJ372c=
 			</data>
 			<key>hash2</key>
 			<data>
-			jtrTX3uDcOy3PZDdSKBbbEfUW3Hfw7lgfVxqvZ9R82Q=
+			FzgC+q+WPmeOzzvFc91Xv4ZIrqrOAE1DkOzDgSfXid4=
 			</data>
 		</dict>
 		<key>Resources/Images/Calendar/AlphaButton.png</key>
